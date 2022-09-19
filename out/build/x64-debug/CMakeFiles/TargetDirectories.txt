@@ -1,0 +1,5 @@
+C:/Users/pault/source/repos/CardGame/out/build/x64-debug/CMakeFiles/edit_cache.dir
+C:/Users/pault/source/repos/CardGame/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/pault/source/repos/CardGame/out/build/x64-debug/CardGame/CMakeFiles/CardGame.dir
+C:/Users/pault/source/repos/CardGame/out/build/x64-debug/CardGame/CMakeFiles/edit_cache.dir
+C:/Users/pault/source/repos/CardGame/out/build/x64-debug/CardGame/CMakeFiles/rebuild_cache.dir
