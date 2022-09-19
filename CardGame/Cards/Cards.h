@@ -2,4 +2,5 @@
 
 #include <iostream>
 
+void fillDeck();
 void testFunc();

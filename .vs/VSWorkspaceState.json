@@ -1,10 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\CardGame\\Cards",
-    "\\out",
-    "\\out\\build"
+    "\\CardGame",
+    "\\CardGame\\Cards"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\CardGame\\Cards\\Cards.cpp",
   "PreviewInSolutionExplorer": false
 }
