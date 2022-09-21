@@ -33,3 +33,10 @@ int CardNumber(){
 ```
 
 </details>
+
+[install a compiler](https://www.youtube.com/watch?v=0HD0pqVtsmw)
+
+[Get the debugger up and running](https://code.visualstudio.com/docs/cpp/cpp-debug)
+
+[Setup GCC to work with VSCode](https://www.youtube.com/watch?v=r1zCtg_wqCA)
+

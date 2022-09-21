@@ -1,5 +1,4 @@
 #include "Cards.h"
-#include <string>
 
 // TODO:
 //		[ ] Convert the 11, 12 and 13 to J, Q and K when displayed to the user
@@ -16,10 +15,23 @@ void fillDeck(){
 		for (int n = 1; n < 14; n++)
 		{
 			deck[(offset + n)-1] = std::to_string(n); // Number
+			/// Maybe store the symbol data in here and make the converter 
+			/// do the work. Example:
+			/// 126 = 12 6 = Q♠
+			/// The last character will always be the card symbol, 
+			/// so I should be able to just check the length and
+			/// cut it right before the last number.
+			 
+			/// https://ss64.com/ascii.html
+
 			//deck[(offset + n)-1] += i+0x02; // Character
 		}
 		offset += 13;
 	}
+}
+
+std::string convertNumber() {
+	return "Cunny";
 }
 
 void testFunc() {
@@ -32,5 +44,9 @@ void testFunc() {
 		std::cout << deck[i] << std::endl;
 	}
 	
+	Hand Player;
 
+	Player.points = 2;
+	std::cout << Player.points << std::endl;
+	std::cout << convertNumber() << std::endl;
 }
