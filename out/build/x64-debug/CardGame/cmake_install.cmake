@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/pault/source/repos/CardGame/CardGame
+# Install script for directory: C:/Users/tsh40/Desktop/School (FGU)/CPP/Cards/CardExercise/CardGame
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/pault/source/repos/CardGame/out/install/x64-debug")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/CardGame")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
