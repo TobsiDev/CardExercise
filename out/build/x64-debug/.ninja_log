@@ -1,4 +1,4 @@
 # ninja log v5
-1	909	6854551771509026	CardGame/CMakeFiles/CardGame.dir/CardGame.cpp.obj	cbcfbabf905424da
-4	920	6854551771598970	CardGame/CMakeFiles/CardGame.dir/Cards/Cards.cpp.obj	1102eeb48b5f459a
-920	1223	6854551774447347	CardGame/CardGame.exe	938f6cda0e9e80c6
+1	472	6855377944907769	CardGame/CMakeFiles/CardGame.dir/CardGame.cpp.obj	7bc2c59def24339c
+4	476	6855377944957790	CardGame/CMakeFiles/CardGame.dir/Cards/Cards.cpp.obj	891489a67510583b
+477	631	6855377946138049	CardGame/CardGame.exe	4dc33cd0b7930fcb

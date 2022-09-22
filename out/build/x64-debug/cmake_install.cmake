@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/pault/source/repos/CardGame
+# Install script for directory: C:/Users/tsh40/Desktop/School (FGU)/CPP/Cards/CardExercise
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/pault/source/repos/CardGame/out/install/x64-debug")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/tsh40/Desktop/School (FGU)/CPP/Cards/CardExercise/out/install/x64-debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/pault/source/repos/CardGame/out/build/x64-debug/CardGame/cmake_install.cmake")
+  include("C:/Users/tsh40/Desktop/School (FGU)/CPP/Cards/CardExercise/out/build/x64-debug/CardGame/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/pault/source/repos/CardGame/out/build/x64-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/tsh40/Desktop/School (FGU)/CPP/Cards/CardExercise/out/build/x64-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
