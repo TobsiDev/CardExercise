@@ -9,9 +9,21 @@ struct Hand
 	std::string hand[10];
 };
 
-// Card resetting functions
-void fillDeck();
-void handReset(Hand *array);
+struct GameInfo // Stores the game data
+{
+	int gameNumber = 0;
+	std::string deck[52];
+};
+
+/// Card resetting functions begins
+
+void fillDeck(GameInfo *gameInfo); // Populates the deck
+
+void handReset(Hand *array); // Sets the hands variables to 0 (clears the hand)
+
+/// Card resetting functions ends
+
+void getCard(/*Hand *array, int arrayIndex,*/ GameInfo *gameInfo); // The hit function.
 
 std::string convertNumber(); // Converts numbers to their correct letters (1=A 11=J ...)
 
